@@ -6,5 +6,5 @@ include:
   - php7.php7-common
   - php7.php7-curl
   - php7.php7-mysql
-  - php7.php7-fmp
+  - php7.php7-fpm
   - php7.php7-mcrypt
