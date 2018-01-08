@@ -3,8 +3,8 @@ sybase:
     - name: |
        mkdir /home/cb/install
   file.managed:
-    - name: /home/cb/install/
-    - source: salt://home/cb/install/*.*
+    - name: /home/cb/install/ASESERV1570138P_0-20011142.TGZ
+    - source: salt://home/cb/install/ASESERV1570138P_0-20011142.TGZ
   cmd.run:
     - name: |
       cd /home/cb/install
