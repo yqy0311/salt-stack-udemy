@@ -2,7 +2,7 @@ sybase:
   cmd.run:
     - name: |
        mkdir -p /home/cb/install
-  file.managed:
-    - name: /home/cb/install/ASESERV1570138P_0-20011142.TGZ
-    - source: salt://sybase/files/ASESERV1570138P_0-20011142.TGZ
-    - unless: test -f /home/cb/install/ASESERV1570138P_0-20011142.TGZ
+
+include:
+  - sybasebin_cp
+  - sybase_install
