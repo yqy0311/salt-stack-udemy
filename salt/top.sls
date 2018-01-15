@@ -7,3 +7,4 @@ base:
     - php7
     - mysql
     - sybase
+    - mongodb

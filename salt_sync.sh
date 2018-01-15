@@ -9,7 +9,7 @@ sudo rm -rf /srv/*
 sudo cp -R salt /srv
 
 ## copy formulas content into /srv/formulas
-##sudo cp -R formulas /srv/formulas
+sudo cp -R formulas /srv/formulas
 
 ## copy pillar content into /srv/pillar
 sudo cp -R pillar /srv/pillar
