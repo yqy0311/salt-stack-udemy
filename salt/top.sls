@@ -1,8 +1,5 @@
 base:
-  '*':
-    - common
-    - ssh
-    - users
+  'minion1':
     - nginx
 
 
